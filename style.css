@@ -1,0 +1,1122 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5rem;
+    color: #808d99;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    border: none;
+  }
+  
+  a:active, a:focus {
+    outline: 0;
+    border: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .attribution a:link {
+    color: #fff;
+  }
+  .attribution a:visited {
+    color: #fff;
+  }
+  .attribution a:active {
+    color: #fff;
+  }
+  
+  header {
+    background-color: #ebfbff;
+    background-size: cover;
+    background-position: top;
+  }
+  header .primary .logo {
+    width: 6.5rem;
+  }
+  
+  .btn-call-to-action {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: #00252e;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 28px;
+    -webkit-box-shadow: 4px 7px 14px -8px rgba(0, 37, 46, 0.2);
+    -moz-box-shadow: 4px 7px 14px -8px rgba(0, 37, 46, 0.2);
+    box-shadow: 4px 7px 14px -8px rgba(0, 37, 46, 0.2);
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #00252e;
+  }
+  footer .logo img {
+    width: 150px;
+  }
+  
+  @media (min-width: 1281px) {
+    header {
+      background-image: url("../images/bg-hero-desktop.svg");
+      padding: 3rem 3rem 3rem 3rem;
+      margin-bottom: 2.5rem;
+    }
+    header .primary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.5rem;
+    }
+    header .primary .logo {
+      width: 12rem;
+    }
+    header .primary .first-call-to-action button {
+      width: 12rem;
+      padding: 15px 18px;
+      font-size: 0.9rem;
+    }
+    header .secondary {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      color: #00252e;
+      height: 500px;
+    }
+    header .secondary .message {
+      align-self: flex-end;
+      padding-right: 2rem;
+      flex-basis: 45%;
+    }
+    header .secondary .message h1 {
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 2rem;
+    }
+    header .secondary .message p {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+    header .secondary .message button {
+      font-size: 0.9rem;
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+    header .secondary .community-interface {
+      flex-basis: 55%;
+    }
+  
+    .btn-pink {
+      width: 14rem;
+      padding: 1rem 1.2rem;
+      font-size: 0.9rem;
+      background-color: #ff52bf;
+      color: #fff;
+    }
+  
+    main {
+      padding: 4rem;
+    }
+  
+    .benefit {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 60px 15px 25px 50px;
+      border: none;
+      border-radius: 18px;
+      margin-bottom: 40px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+  
+    .benefit-image img {
+      width: 60%;
+    }
+  
+    .benefit-message h2 {
+      color: #00252e;
+      font-size: 2rem;
+    }
+    .benefit-message p {
+      font-size: 1.2rem;
+      line-height: 1.7rem;
+    }
+  
+    .first-benefit .benefit-message {
+      order: 1;
+    }
+    .first-benefit .benefit-image {
+      order: 2;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .second-benefit .benefit-message {
+      order: 2;
+    }
+    .second-benefit .benefit-image {
+      order: 1;
+    }
+  
+    .last-benefit {
+      margin-bottom: 160px;
+    }
+    .last-benefit .benefit-message {
+      order: 1;
+    }
+    .last-benefit .benefit-image {
+      order: 2;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .bottom-call-to-action {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 65%;
+      height: 180px;
+      position: absolute;
+      top: -110px;
+      left: 18%;
+      background-color: #fff;
+      border: none;
+      border-radius: 18px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+    .bottom-call-to-action button {
+      width: 17rem;
+    }
+    .bottom-call-to-action h3 {
+      margin-top: 0;
+      color: #00252e;
+      font-size: 1.5rem;
+    }
+  
+    footer {
+      position: relative;
+      padding-top: 150px;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: #fff;
+      font-size: 0.9rem;
+      line-height: 0.9rem;
+    }
+    footer .main-wrapper {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    footer .logo {
+      margin-bottom: 15px;
+    }
+    footer .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    footer .first {
+      flex-basis: 30%;
+      flex-grow: 0;
+      align-self: center;
+    }
+    footer .first .logo {
+      margin-bottom: 15px;
+    }
+    footer .first .logo img {
+      width: 150px;
+    }
+    footer .first .item-container {
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+    footer .first .item-container p {
+      margin-left: 10px;
+      align-self: baseline;
+    }
+    footer .first .icon {
+      width: 10px;
+      align-self: baseline;
+    }
+    footer .fourth {
+      flex-basis: 20%;
+      flex-grow: 0;
+      height: 70px;
+      display: flex;
+    }
+    footer .fourth .fab {
+      padding: 5px;
+      font-size: 12px;
+      color: #fff;
+      width: 12px;
+      height: 12px;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+    footer .fourth .fab:last-child {
+      margin-right: 0;
+    }
+    footer .secondary-wrapper {
+      padding-left: 60px;
+      display: flex;
+      justify-content: flex-end;
+    }
+    footer .secondary-wrapper .secondary {
+      width: 23%;
+      padding-right: 20px;
+      font-size: 0.7rem;
+    }
+    footer .attribution {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.7rem;
+      padding-bottom: 10px;
+    }
+  }
+  /*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    header {
+      background-image: url("../images/bg-hero-desktop.svg");
+      padding: 3rem 3rem 3rem 3rem;
+      margin-bottom: 3.5rem;
+    }
+    header .primary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.5rem;
+    }
+    header .primary .logo {
+      width: 9rem;
+    }
+    header .primary .first-call-to-action button {
+      width: 10rem;
+      padding: 12px 15px;
+      font-size: 0.8rem;
+    }
+    header .secondary {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      color: #00252e;
+      height: 400px;
+    }
+    header .secondary .message {
+      align-self: flex-end;
+      padding-right: 2rem;
+      flex-basis: 40%;
+    }
+    header .secondary .message h1 {
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 1.6rem;
+    }
+    header .secondary .message p {
+      font-size: 1rem;
+      line-height: 1.3rem;
+    }
+    header .secondary .message button {
+      font-size: 0.8rem;
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+    header .secondary .community-interface {
+      flex-basis: 60%;
+    }
+  
+    .btn-pink {
+      width: 14rem;
+      padding: 1rem 1.2rem;
+      font-size: 0.9rem;
+      background-color: #ff52bf;
+      color: #fff;
+    }
+  
+    main {
+      padding: 4rem;
+    }
+  
+    .benefit {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 60px 15px 25px 50px;
+      border: none;
+      border-radius: 18px;
+      margin-bottom: 40px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+  
+    .benefit-image img {
+      width: 60%;
+    }
+  
+    .benefit-message h2 {
+      color: #00252e;
+      font-size: 1.4rem;
+    }
+    .benefit-message p {
+      font-size: 1rem;
+    }
+  
+    .first-benefit .benefit-message {
+      order: 1;
+    }
+    .first-benefit .benefit-image {
+      order: 2;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .second-benefit .benefit-message {
+      order: 2;
+    }
+    .second-benefit .benefit-image {
+      order: 1;
+    }
+  
+    .last-benefit {
+      margin-bottom: 160px;
+    }
+    .last-benefit .benefit-message {
+      order: 1;
+    }
+    .last-benefit .benefit-image {
+      order: 2;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .bottom-call-to-action {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 65%;
+      height: 180px;
+      position: absolute;
+      top: -110px;
+      left: 18%;
+      background-color: #fff;
+      border: none;
+      border-radius: 18px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+    .bottom-call-to-action button {
+      width: 17rem;
+    }
+    .bottom-call-to-action h3 {
+      margin-top: 0;
+      color: #00252e;
+      font-size: 1.2rem;
+    }
+  
+    footer {
+      position: relative;
+      padding-top: 150px;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: #fff;
+      font-size: 0.9rem;
+      line-height: 0.9rem;
+    }
+    footer .main-wrapper {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    footer .logo {
+      margin-bottom: 15px;
+    }
+    footer .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    footer .first {
+      flex-basis: 35%;
+      flex-grow: 0;
+      align-self: center;
+    }
+    footer .first .logo {
+      margin-bottom: 15px;
+    }
+    footer .first .logo img {
+      width: 150px;
+    }
+    footer .first .item-container {
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+    footer .first .item-container p {
+      margin-left: 10px;
+      align-self: baseline;
+    }
+    footer .first .icon {
+      width: 10px;
+      align-self: baseline;
+    }
+    footer .fourth {
+      flex-basis: 20%;
+      flex-grow: 0;
+      height: 70px;
+      display: flex;
+    }
+    footer .fourth .fab {
+      padding: 5px;
+      font-size: 12px;
+      color: #fff;
+      width: 12px;
+      height: 12px;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+    footer .fourth .fab:last-child {
+      margin-right: 0;
+    }
+    footer .secondary-wrapper {
+      padding-left: 60px;
+      display: flex;
+      justify-content: flex-end;
+    }
+    footer .secondary-wrapper .secondary {
+      width: 23%;
+      padding-right: 20px;
+      font-size: 0.6rem;
+    }
+    footer .attribution {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.7rem;
+      padding-bottom: 10px;
+    }
+  }
+  /*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    header {
+      background-image: url("../images/bg-hero-mobile.svg");
+      padding: 3rem 3rem 3rem 3rem;
+      margin-bottom: 6.5rem;
+    }
+    header .primary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.5rem;
+    }
+    header .primary .logo {
+      width: 9rem;
+    }
+    header .primary .first-call-to-action button {
+      width: 10rem;
+      padding: 12px 15px;
+      font-size: 0.8rem;
+    }
+    header .secondary {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      color: #00252e;
+      height: 300px;
+    }
+    header .secondary .message {
+      align-self: baseline;
+      padding-right: 2rem;
+      flex-basis: 40%;
+    }
+    header .secondary .message h1 {
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 1.6rem;
+    }
+    header .secondary .message p {
+      font-size: 1rem;
+      line-height: 1.3rem;
+    }
+    header .secondary .message button {
+      font-size: 0.8rem;
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+    header .secondary .community-interface {
+      flex-basis: 60%;
+    }
+  
+    .btn-pink {
+      width: 14rem;
+      padding: 1rem 1.2rem;
+      font-size: 0.9rem;
+      background-color: #ff52bf;
+      color: #fff;
+    }
+  
+    main {
+      padding: 2rem;
+    }
+  
+    .benefit {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 60px 15px 25px 50px;
+      border: none;
+      border-radius: 18px;
+      margin-bottom: 40px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+  
+    .benefit-image img {
+      width: 80%;
+    }
+  
+    .benefit-message h2 {
+      color: #00252e;
+      font-size: 1.2rem;
+    }
+    .benefit-message p {
+      font-size: 0.9rem;
+    }
+  
+    .first-benefit .benefit-message {
+      order: 1;
+    }
+    .first-benefit .benefit-image {
+      order: 2;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .second-benefit .benefit-message {
+      order: 2;
+    }
+    .second-benefit .benefit-image {
+      order: 1;
+    }
+  
+    .last-benefit {
+      margin-bottom: 200px;
+    }
+    .last-benefit .benefit-message {
+      order: 1;
+    }
+    .last-benefit .benefit-image {
+      order: 2;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .bottom-call-to-action {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 65%;
+      height: 180px;
+      position: absolute;
+      top: -110px;
+      left: 18%;
+      background-color: #fff;
+      border: none;
+      border-radius: 18px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+    .bottom-call-to-action button {
+      width: 17rem;
+    }
+    .bottom-call-to-action h3 {
+      margin-top: 0;
+      color: #00252e;
+      font-size: 1.2rem;
+    }
+  
+    footer {
+      position: relative;
+      padding-top: 150px;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: #fff;
+      font-size: 0.7rem;
+      line-height: 0.9rem;
+    }
+    footer .main-wrapper {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    footer .logo {
+      margin-bottom: 15px;
+    }
+    footer .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    footer .first {
+      flex-basis: 35%;
+      flex-grow: 0;
+      align-self: center;
+    }
+    footer .first .logo {
+      margin-bottom: 15px;
+    }
+    footer .first .logo img {
+      width: 150px;
+    }
+    footer .first .item-container {
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+    footer .first .item-container p {
+      margin-left: 10px;
+      align-self: baseline;
+    }
+    footer .first .icon {
+      width: 10px;
+      align-self: baseline;
+    }
+    footer .fourth {
+      flex-basis: 20%;
+      flex-grow: 0;
+      height: 70px;
+      display: flex;
+    }
+    footer .fourth .fab {
+      padding: 5px;
+      font-size: 12px;
+      color: #fff;
+      width: 12px;
+      height: 12px;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+    footer .fourth .fab:last-child {
+      margin-right: 0;
+    }
+    footer .secondary-wrapper {
+      padding-left: 60px;
+      display: flex;
+      justify-content: flex-end;
+    }
+    footer .secondary-wrapper .secondary {
+      width: 25%;
+      padding-right: 20px;
+      font-size: 0.5rem;
+    }
+    footer .attribution {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.6rem;
+      padding-bottom: 10px;
+    }
+  }
+  /*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  @media (min-width: 481px) and (max-width: 767px) {
+    header {
+      background-image: url("../images/bg-hero-mobile.svg");
+      padding: 2rem 1rem 1rem 1rem;
+      margin-bottom: 1.5rem;
+    }
+    header .primary .logo {
+      width: 8rem;
+    }
+    header .primary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .primary .first-call-to-action button {
+      width: 8rem;
+      padding: 12px 15px;
+      font-size: 0.9rem;
+    }
+    header .secondary {
+      margin-top: 50px;
+      color: #00252e;
+      text-align: center;
+      padding: 1rem;
+    }
+    header .secondary img {
+      width: 80%;
+    }
+    header .secondary .message h1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 2rem;
+    }
+    header .secondary .message .message-heading {
+      margin-bottom: 18px;
+    }
+    header .secondary .message button {
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+  
+    .btn-pink {
+      width: 14rem;
+      padding: 15px 22px;
+      font-size: 0.9rem;
+      background-color: #ff52bf;
+      color: #fff;
+    }
+  
+    main {
+      padding: 2rem 1.2rem 1rem 1.2rem;
+    }
+  
+    .benefit {
+      padding: 60px 35px 25px 35px;
+      text-align: center;
+      border: none;
+      border-radius: 18px;
+      margin-bottom: 40px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+  
+    .benefit-image {
+      margin-bottom: 60px;
+    }
+    .benefit-image img {
+      width: 60%;
+    }
+  
+    .benefit-message h2 {
+      color: #00252e;
+      font-size: 1.8rem;
+    }
+    .benefit-message p {
+      font-size: 1.1rem;
+    }
+  
+    .last-benefit {
+      margin-bottom: 200px;
+    }
+  
+    .bottom-call-to-action {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 97.3%;
+      height: 180px;
+      position: absolute;
+      top: -110px;
+      background-color: #fff;
+      border: none;
+      border-radius: 18px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+    .bottom-call-to-action button {
+      width: 17rem;
+    }
+    .bottom-call-to-action h3 {
+      margin-top: 0;
+      color: #00252e;
+      font-size: 1.5rem;
+    }
+  
+    footer {
+      position: relative;
+      padding-top: 150px;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: #fff;
+      font-size: 1rem;
+    }
+    footer .main-wrapper {
+      padding-left: 15px;
+    }
+    footer .first .logo {
+      margin-bottom: 15px;
+    }
+    footer .first .logo img {
+      width: 220px;
+    }
+    footer .first .item-container {
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+    footer .first .item-container p {
+      margin-left: 25px;
+      align-self: baseline;
+    }
+    footer .first .icon {
+      width: 20px;
+      align-self: baseline;
+    }
+    footer .fourth {
+      height: 70px;
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    footer .fourth .fab {
+      padding: 10px;
+      font-size: 20px;
+      color: #fff;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+    footer .fourth .fab:last-child {
+      margin-right: 0;
+    }
+    footer .secondary {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    footer .attribution {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    header {
+      background-image: url("../images/bg-hero-mobile.svg");
+      padding: 2rem 1rem 1rem 1rem;
+      margin-bottom: 1.5rem;
+    }
+    header .primary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .primary .first-call-to-action button {
+      width: 7rem;
+      padding: 9px 15px;
+      font-size: 0.8rem;
+    }
+    header .secondary {
+      margin-top: 50px;
+      color: #00252e;
+      text-align: center;
+      padding: 1rem;
+    }
+    header .secondary .message h1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-size: 1.4rem;
+    }
+    header .secondary .message .message-heading {
+      margin-bottom: 10px;
+    }
+    header .secondary .message button {
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }
+  
+    .btn-pink {
+      width: 14rem;
+      padding: 12px 22px;
+      font-size: 0.9rem;
+      background-color: #ff52bf;
+      color: #fff;
+    }
+  
+    main {
+      padding: 2rem 1.2rem 1rem 1.2rem;
+    }
+  
+    .benefit {
+      padding: 60px 35px 25px 35px;
+      text-align: center;
+      border: none;
+      border-radius: 18px;
+      margin-bottom: 40px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+  
+    .benefit-image {
+      margin-bottom: 60px;
+    }
+  
+    .benefit-message h2 {
+      color: #00252e;
+      font-size: 1.4rem;
+    }
+    .benefit-message p {
+      font-size: 1rem;
+    }
+  
+    .last-benefit {
+      margin-bottom: 200px;
+    }
+  
+    .bottom-call-to-action {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 94%;
+      height: 180px;
+      position: absolute;
+      top: -110px;
+      background-color: #fff;
+      border: none;
+      border-radius: 18px;
+      -webkit-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      -moz-box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+      box-shadow: 0px 0px 15px -4px rgba(0, 37, 46, 0.16);
+    }
+    .bottom-call-to-action h3 {
+      margin-top: 0;
+      color: #00252e;
+      font-size: 1.2rem;
+    }
+  
+    footer {
+      position: relative;
+      padding-top: 150px;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: #fff;
+      font-size: 1rem;
+    }
+    footer .main-wrapper {
+      padding-left: 15px;
+    }
+    footer .first .logo {
+      margin-bottom: 15px;
+    }
+    footer .first .logo img {
+      width: 200px;
+    }
+    footer .first .item-container {
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+    footer .first .item-container p {
+      margin-left: 25px;
+      align-self: baseline;
+    }
+    footer .first .icon {
+      width: 20px;
+      align-self: baseline;
+    }
+    footer .fourth {
+      height: 70px;
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    footer .fourth .fab {
+      padding: 10px;
+      font-size: 20px;
+      color: #fff;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+    footer .fourth .fab:last-child {
+      margin-right: 0;
+    }
+    footer .secondary {
+      text-align: center;
+      font-size: 0.8rem;
+    }
+    footer .attribution {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.8rem;
+    }
+  }
