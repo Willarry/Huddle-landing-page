@@ -31,6 +31,10 @@ body {
   button:focus {
     outline: none;
   }
+
+  button:hover{
+    cursor: pointer;
+  }
   
   .attribution a:link {
     color: #fff;
